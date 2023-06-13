@@ -1,0 +1,25 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url = uri("https://maven.pkg.github.com/ssepulveda08/videoSurvey")
+            credentials {
+                username = USER_GITHUB
+                password = TOKEN_GITHUB
+            }
+        }
+
+    }
+}
+rootProject.name = "PreviewVideosurvey"
+include ':app'
