@@ -3,6 +3,8 @@
 
 VideoSurvey es una libreria para Android, diseñada en Jetpack Compose y kotlin, te permite reproducir un video con una Url publica y lanzar encuestas de única o múltiple respuesta en un milisegundo específico del video. Proporciona una solución sencilla para integrar la reproducción de video y la interacción con encuestas en tus aplicaciones de Android basadas en Jetpack Compose.
 
+![Home](https://github.com/ssepulveda08/videoSurvey/blob/main/Test1.png)
+![Home](https://github.com/ssepulveda08/videoSurvey/blob/main/test2.png)
 
 ## Features 
 
